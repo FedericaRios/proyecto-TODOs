@@ -5,7 +5,7 @@
     font-size: 25px;
     font-weight: bold;
     position: fixed;
-    bottom: 20px; 
+    bottom: 20px;
     cursor: pointer;
     box-shadow: 5px 2px 20px 2px rgb(128, 158, 167);
     right: 10%;
@@ -17,5 +17,3 @@
 .CreateTodoButton {
     z-index: 1;
 }
-
-

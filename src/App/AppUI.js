@@ -8,6 +8,7 @@ import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
 import { TodoForm } from '../TodoForm/index';
 import LoadingIcon from '../Icons/loader.gif';
+// import { EmptyTodo } from '../EmptyTodosReto/emptyTodo.js';
 
 function AppUI() {
     const {
@@ -29,6 +30,9 @@ function AppUI() {
                 {error && <p>Desespérate, hubo un error...</p>}
                 {loading && <img src={LoadingIcon} alt="Imagen de carga" />}
                 {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
+                {/* {(!loading && !searchedTodos.length) && (<EmptyTodo />)} */}
+
+
 
                 {searchedTodos.map(todo => (
                     <TodoItem
