@@ -1,0 +1,57 @@
+.esTodo {
+    background-color: rgba(64, 95, 104, 0.486);
+    border: 1px solid rgb(92, 126, 136);
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.TodoItem-p {
+    color: black;
+    margin-left: 15%;
+}
+
+.TodoItem-p--completed {
+    text-decoration: line-through;
+}
+
+.Icons {
+    background-color: white;
+    box-shadow: 5px 2px 30px 2px white;
+    border: 1px solid rgb(92, 126, 136);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex; /*se fija solo en X y √ dentro del circulo*/
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Icon-check {        /*(√)*/
+    font-weight: 900;
+    left: 2%;
+    position: absolute;
+}
+
+.Icon-check--active {
+    background-color: rgb(57, 202, 52);
+    box-shadow: 5px 2px 20px 2px rgb(13, 187, 42);
+    border: 1px solid rgb(13, 187, 42);
+}
+
+.Icon-delete {  /*X*/ 
+    position: absolute; /*se fija en la posicion del circulo de x*/
+    right: 10px;
+    top: -20px;
+}
+
+.Icon-delete:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 5px 2px 20px 2px rgb(196, 21, 21); 
+    border: 1px solid rgb(192, 37, 37);
+}

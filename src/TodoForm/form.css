@@ -1,0 +1,58 @@
+form {
+    background-color: #F2F4F5;
+    width: 55%;
+    height: 40%;
+    border: 1px solid rgb(92, 126, 136); 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 25px;
+} 
+
+label {
+    text-align: center;
+    font-weight: 800;
+    color: black;
+}
+
+textarea {
+    width: 60%;
+    height: 35%;
+    box-shadow: 5px 2px 20px 2px rgb(128, 158, 167);
+    color: #1E1E1F;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.buttons-container {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    cursor: pointer;
+    font-size: 15px;
+    width: 85px;
+    height: 35px;
+    background-color: rgba(64, 95, 104, 0.486);
+    border: 1px solid rgb(92, 126, 136); 
+}
+
+textarea:focus {
+    outline-color: rgba(27, 194, 236, 0.623);
+}
+
+.button-añadir:hover {
+    background-color: rgba(27, 194, 236, 0.623);
+    box-shadow: 5px 2px 20px 2px rgba(27, 194, 236, 0.623);
+}
+
+.button-cancel:hover {
+    background-color: rgba(255, 0, 0, 0.767);
+}
+
+
