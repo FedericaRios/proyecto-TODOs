@@ -1,0 +1,25 @@
+.emptyTodos-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emptyTodos-container>p {
+    font-weight: 800;
+}
+
+.emptyTodo-img-create {
+    width: 25%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 530px) {
+    .emptyTodo-img-create {
+        width: 40%;
+        height: 30%;
+    }
+}

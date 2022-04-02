@@ -8,7 +8,8 @@ import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
 import { TodoForm } from '../TodoForm/index';
 import LoadingIcon from '../Icons/loader.gif';
-// import { EmptyTodo } from '../EmptyTodosReto/emptyTodo.js';
+import { EmptyTodo } from '../EmptyTodosReto/emptyTodo.js';
+import './AppUI.css';
 
 function AppUI() {
     const {
@@ -22,15 +23,17 @@ function AppUI() {
     } = React.useContext(TodoContext);
 
     return (
-        <React.Fragment>
-            <TodoCounter />
-            <TodoSearch />
-
+        // <React.Fragment>
+        <div className="container">
+            <div className="container-search-counter">
+                <TodoCounter />
+                <TodoSearch />
+            </div>
             <TodoList>
                 {error && <p>Desespérate, hubo un error...</p>}
                 {loading && <img src={LoadingIcon} alt="Imagen de carga" />}
-                {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
-                {/* {(!loading && !searchedTodos.length) && (<EmptyTodo />)} */}
+                {/* {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>} */}
+                {(!loading && !searchedTodos.length) && (<EmptyTodo />)}
 
 
 
@@ -54,7 +57,8 @@ function AppUI() {
             <CreateTodoButton
                 setOpenModal={setOpenModal}
             />
-        </React.Fragment>
+            {/* </React.Fragment> */}
+        </div>
     );
 }
 
