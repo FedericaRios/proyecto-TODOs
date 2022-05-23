@@ -23,7 +23,6 @@ function AppUI() {
     } = React.useContext(TodoContext);
 
     return (
-        // <React.Fragment>
         <div className="container">
             <div className="container-search-counter">
                 <TodoCounter />
@@ -32,7 +31,6 @@ function AppUI() {
             <TodoList>
                 {error && <p>Desespérate, hubo un error...</p>}
                 {loading && <img src={LoadingIcon} alt="Imagen de carga" />}
-                {/* {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>} */}
                 {(!loading && !searchedTodos.length) && (<EmptyTodo />)}
 
 
@@ -57,7 +55,6 @@ function AppUI() {
             <CreateTodoButton
                 setOpenModal={setOpenModal}
             />
-            {/* </React.Fragment> */}
         </div>
     );
 }

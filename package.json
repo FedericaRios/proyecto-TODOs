@@ -1,6 +1,6 @@
 {
-  "homepage": "https://FedericaRios.github.io/proyecto-TODOs-react.github.io",
-  "name": "proyecto-introduccion-react",
+  "homepage": "https://FedericaRios.github.io/proyecto-TODOs",
+  "name": "proyecto-TODOs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   }
 }
