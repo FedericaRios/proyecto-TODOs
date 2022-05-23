@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/proyecto-TODOs-react.github.io/static/css/main.e65c8355.css",
-    "main.js": "/proyecto-TODOs-react.github.io/static/js/main.3e7f3204.js",
-    "static/media/sonriente.png": "/proyecto-TODOs-react.github.io/static/media/sonriente.d27104c22826cbab96ab.png",
-    "static/media/loader.gif": "/proyecto-TODOs-react.github.io/static/media/loader.86af7c43e9786bb9803e.gif",
-    "index.html": "/proyecto-TODOs-react.github.io/index.html",
-    "main.e65c8355.css.map": "/proyecto-TODOs-react.github.io/static/css/main.e65c8355.css.map",
-    "main.3e7f3204.js.map": "/proyecto-TODOs-react.github.io/static/js/main.3e7f3204.js.map"
+    "main.css": "/proyecto-TODOs/static/css/main.e65c8355.css",
+    "main.js": "/proyecto-TODOs/static/js/main.f7ca6a1b.js",
+    "static/media/sonriente.png": "/proyecto-TODOs/static/media/sonriente.d27104c22826cbab96ab.png",
+    "static/media/loader.gif": "/proyecto-TODOs/static/media/loader.86af7c43e9786bb9803e.gif",
+    "index.html": "/proyecto-TODOs/index.html",
+    "main.e65c8355.css.map": "/proyecto-TODOs/static/css/main.e65c8355.css.map",
+    "main.f7ca6a1b.js.map": "/proyecto-TODOs/static/js/main.f7ca6a1b.js.map"
   },
   "entrypoints": [
     "static/css/main.e65c8355.css",
-    "static/js/main.3e7f3204.js"
+    "static/js/main.f7ca6a1b.js"
   ]
 }
