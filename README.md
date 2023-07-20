@@ -1,4 +1,4 @@
-# ToDos APP <br/>
+#🕒 ToDos APP <br/>
 ### ➥ Aplicación web que permite gestionar actividades diarias (Desarrollada junto al curso de React en Platzi).
 
 Tecnologías utilizadas: <br/>
