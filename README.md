@@ -1,6 +1,7 @@
-Aplicación web que permite gestionar actividades diarias (Desarrollada junto al curso de React en Platzi).
+✔ ToDos APP <br/>
+➥ Aplicación web que permite gestionar actividades diarias (Desarrollada junto al curso de React en Platzi).
 
--Tecnologías utilizadas: <br/>
+Tecnologías utilizadas: <br/>
 ● React <br/>
 ● Html <br/>
 ● Js <br/>
